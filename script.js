@@ -7,7 +7,7 @@ document.getElementById("resultForm").addEventListener("submit", function (event
 
   if (captcha === "12345") {
     const img = document.createElement("img");
-    img.src = "https://imgur.com/Zm878Tz"; // Replace with your Imgur direct image URL
+    img.src = "https://i.imgur.com/your-image-id.jpg"; // Replace with your Imgur direct image URL
     img.alt = "Prank Image";
     img.style.maxWidth = "100%"; // Optional: Ensure it fits nicely
     document.body.appendChild(img);
