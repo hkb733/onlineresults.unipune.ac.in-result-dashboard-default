@@ -6,7 +6,7 @@ document.getElementById("resultForm").addEventListener("submit", function (event
   const captcha = document.getElementById("captcha").value;
 
   if (captcha === "12345") {
-    const imgURL = "https://i.imgur.com/<image-id>.jpg"; // Replace with the correct direct URL
+    const imgURL = "https://i.imgur.com/Zm878Tz.jpeg"; // Replace with the correct direct URL
     window.open(imgURL, "_blank"); // Opens the image in a new tab
   } else {
     alert("Invalid Captcha!");
